@@ -1,6 +1,6 @@
 # RLDB-MF-Vehicle-Localization-by-Visual-Scene-Matching
 
-Vehicle visual localization by scene matching, using RLDB image descriptor and Markov filter.
+Vehicle visual localization by scene matching, using RLDB binary image descriptor and Markov filter.
 
 This project introduces an algorithm for Vehicle visual localization by scene matching. The proposed visual localization approach assumes that the vehicle stores an annotated database image sequence. The database is created in a previous vehicle trip using a mounted camera, a displacement odometry sensor, and a GPS receiver. During the database image sequence creation phase, the moving vehicle covers all roads in the navigation area. Images for the vehicle surroundings are captured every one meter of displacement on the road. While during the real-time vehicle visual localization phase, only a mounted camera and displacement odometry sensor are used, while the GPS is not used. Each new captured real-time image is matched with the database images to get an estimation for the current location, at the same time the odometry sensors readings are used to enhance the accuracy of the final estimated location. A modified version of Markov localization filter is used as a data fusion algorithm, that integrates odometry sensor measurements with locations estimated form image matching process to get a final accurate estimation for the vehicle location at each filter cycle.
 
