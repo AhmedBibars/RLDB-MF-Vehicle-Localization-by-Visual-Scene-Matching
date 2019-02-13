@@ -10,11 +10,16 @@ The demos presented in this project measure the localization accuracy of the pro
 
 The videos of the datasets are available at the following website of Queensland university of technology (QUT): https://wiki.qut.edu.au/display/cyphy/Datasets
 
-For Highway dataset:<br />
+For CBD dataset:<br />
 "Demo_CBD_RLDB_MMF.m": measures localization accuracy in case of using the Modified Markov Filter (MMF).<br />
 "Demo_CBD_RLDB_MMF.m": measures localization accuracy in case of using the regular Markov Filter (MF).<br />
-"Demo_CBD_RLDB_SingleImageMatching.m":measures localization accuracy using only image matching, without Markov filter.<br />
-At the end of wach demo, a demo-video is generated using the function "GenerateResultVideo_Highway.m". Similar to the video in the following link: https://www.youtube.com/watch?v=r6ze6YNYIek&t=4s <br />
+"Demo_CBD_RLDB_SingleImageMatching.m": measures localization accuracy using only image matching, without Markov filter.<br />
+At the end of each demo, a demo-video is generated using the function "GenerateResultVideo_CBD.m". Similar to the video in the following link: https://www.youtube.com/watch?v=IC-snqqX42g&t=1s <br />
 
+For Highway dataset:<br />
+"Demo_Highway_RLDB_MMF.m": measures localization accuracy in case of using the Modified Markov Filter (MMF).<br />
+"Demo_Highway_RLDB_MMF.m": measures localization accuracy in case of using the regular Markov Filter (MF).<br />
+"Demo_Highway_RLDB_SingleImageMatching.m": measures localization accuracy using only image matching, without Markov filter.<br />
+At the end of each demo, a demo-video is generated using the function "GenerateResultVideo_Highway.m". Similar to the video in the following link: https://www.youtube.com/watch?v=r6ze6YNYIek&t=4s <br />
 
 
