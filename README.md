@@ -9,7 +9,7 @@ This project introduces an algorithm for Vehicle visual localization by scene ma
 
 The algorithm performs accurate, fast, and appearance invariant scene matching using the Random Local Difference Binary image descriptor (RLDB). RLDB is a novel binary image descriptor that represents an extension for the state-of-the-art LDB descriptor, that enhances its matching accuracy and its computational efficiency. We have introduced RLDB in the research paper: 
 
-Bibars, Ahmed, and Mohsen Mahroos. "A Novel Binary Image Descriptor for Visual Localization Relying on Scene Matching." Graphics, Vision and Image Processing Journal 18, no. 2 (2019): 23-31.
+Bibars, Ahmed, and Mohsen Mahroos. "A Novel Binary Image Descriptor for Visual Localization Relying on Scene Matching." Graphics, Vision and Image Processing Journal 18, no. 2 (2018): 23-31.
 
 The demos presented in this project measure the localization accuracy of the proposed vehicle visual localization algorithm. The datasets used are: 1- Highway dataset. 2- CBD dataset. Each of these datasets contains two videos, one is recorded at day time, while the other is recorded at nights. One of the two videos is considered as an image database, while the other is considered as a real-time image-queries.
 
