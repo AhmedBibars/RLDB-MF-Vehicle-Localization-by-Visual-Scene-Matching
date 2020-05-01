@@ -2,6 +2,9 @@
 
 Vehicle visual localization by scene matching, using RLDB binary image descriptor and Markov filter.
 
+The following algorithm is puplished in: Bibars, Ahmed, and Mohsen Mahroos. "A Fast Vehicle Visual Self-Localization Algorithm Based on
+Markov Filter and RLDB Binary Image Descriptor." Automatic Control and System Engineering Journal 19, no. 2 (2019): 7-16.
+
 This project introduces an algorithm for Vehicle visual localization by scene matching. The proposed visual localization approach assumes that the vehicle stores an annotated database image sequence. The database is created in a previous vehicle trip using a mounted camera, a displacement odometry sensor, and a GPS receiver. During the database image sequence creation phase, the moving vehicle covers all roads in the navigation area. Images for the vehicle surroundings are captured every one meter of displacement on the road. While during the real-time vehicle visual localization phase, only a mounted camera and displacement odometry sensor are used, while the GPS is not used. Each new captured real-time image is matched with the database images to get an estimation for the current location, at the same time the odometry sensors readings are used to enhance the accuracy of the final estimated location. A modified version of Markov localization filter is used as a data fusion algorithm, that integrates odometry sensor measurements with locations estimated form image matching process to get a final accurate estimation for the vehicle location at each filter cycle.
 
 The algorithm performs accurate, fast, and appearance invariant scene matching using the Random Local Difference Binary image descriptor (RLDB). RLDB is a novel binary image descriptor that represents an extension for the state-of-the-art LDB descriptor, that enhances its matching accuracy and its computational efficiency. We have introduced RLDB in the research paper: 
